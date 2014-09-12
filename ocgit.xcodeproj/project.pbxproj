@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D47363019C3212000326DC5 /* GTCloneTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D47362F19C3212000326DC5 /* GTCloneTool.m */; };
 		4D8386E117E7611400F0ACEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8386E017E7611400F0ACEF /* Foundation.framework */; };
 		4DAED7B818325C2600DDECD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAED7B618325C2100DDECD2 /* main.m */; };
 		4DAED7BE18325EBF00DDECD2 /* GTCLITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAED7BD18325EBF00DDECD2 /* GTCLITool.m */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D47362F19C3212000326DC5 /* GTCloneTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCloneTool.m; sourceTree = "<group>"; };
 		4D8386DD17E7611400F0ACEF /* ocgit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocgit; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8386E017E7611400F0ACEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DAED7B518325C2100DDECD2 /* ocgit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ocgit-Prefix.pch"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			children = (
 				4DAED7BC18325EBF00DDECD2 /* GTCLITool.h */,
 				4DAED7BD18325EBF00DDECD2 /* GTCLITool.m */,
+				4D47362F19C3212000326DC5 /* GTCloneTool.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAED7B818325C2600DDECD2 /* main.m in Sources */,
+				4D47363019C3212000326DC5 /* GTCloneTool.m in Sources */,
 				4DAED7BE18325EBF00DDECD2 /* GTCLITool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
